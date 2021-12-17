@@ -1,6 +1,5 @@
 <?php
 
-
 function custom_retry_rules( $default_retry_rules_array ) {
     return array(
             array(
@@ -41,3 +40,5 @@ function custom_retry_rules( $default_retry_rules_array ) {
         );
 }
 add_filter( 'wcs_default_retry_rules', 'custom_retry_rules' );
+
+
